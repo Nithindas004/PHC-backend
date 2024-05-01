@@ -1,0 +1,75 @@
+{
+  "workerId": "asdf",
+  "surveyNumber": 22,
+  "houseNumber": "12",
+  "houseName": "ABC",
+  "houseType": "Terrace",
+  "owner": "John",
+  "mobile": "9876543210",
+  "religion": "Christian",
+  "caste": "RC",
+  "income": 12000000,
+  "rationCard": "BPL",
+  "scst": "no",
+  "waterSource": "tap",
+  "toilet": "septicTank",
+  "nearby": {
+    "pond": "no",
+    "stream": "no",
+    "garbage": "no",
+    "wasteWater": "no"
+  },
+  "cattle": "no",
+  "wasteManagement": "compost",
+  "workingMembers": 3,
+  "jobType": "private",
+  "members": [
+    {
+      "name": "Doe",
+      "age": "22",
+      "gender": "M",
+      "dob": "14/03/2002",
+      "education": "BSc",
+      "married": "no",
+      "job": "no",
+      "disability": {
+        "mentalIllness": "no",
+        "fromBirth": "no"
+      },
+      "blindness": {
+        "accident": "no",
+        "complete": "no",
+        "partial": "no"
+      },
+      "spectacles": "no",
+      "tobacco": {
+        "smoking": "no",
+        "chewing": "no"
+      },
+      "alcohol": "no",
+      "immigrantEmigrant": "no",
+      "otherInfo": "no",
+      "vaccination": {
+        "complete": 3,
+        "partiallyComplete": 2,
+        "incomplete": 1
+      },
+      "bloodPressure": "no",
+      "diabetes": "no",
+      "asthma": "no",
+      "epilepsy": "no",
+      "cancer": "no",
+      "heartDisease": "no",
+      "mentalRetardation": "no",
+      "TB": "no",
+      "Stroke": "no",
+      "liverDisease": "no",
+      "dialysis": "no",
+      "other": "NIL",
+      "covidVaccination": "no",
+      "maternityInfo": "NIL",
+      "familyPlanningMethod": "NIL",
+      "remark": "NIL"
+    }
+  ]
+}
