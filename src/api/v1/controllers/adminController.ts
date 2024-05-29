@@ -222,6 +222,8 @@ export const adminDownloadSurveysController = async (
     surveys.forEach((obj: any) => {
       const surveyNumber = obj.surveyNumber;
       const surveyId = obj._id;
+      const houseName = obj.houseName;
+      const houseNumber = obj.houseNumber;
 
       obj.members.forEach((member: any) => {
         const flattenedMember = flattenObject(member);
@@ -229,6 +231,8 @@ export const adminDownloadSurveysController = async (
         const processedMember = {
           surveyId,
           surveyNumber,
+          houseNumber,
+          houseName,
           name: member.name,
           age: member.age,
           gender: member.gender,

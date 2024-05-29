@@ -205,10 +205,14 @@ const adminDownloadSurveysController = (req, res) => __awaiter(void 0, void 0, v
         surveys.forEach((obj) => {
             const surveyNumber = obj.surveyNumber;
             const surveyId = obj._id;
+            const houseName = obj.houseName;
+            const houseNumber = obj.houseNumber;
             obj.members.forEach((member) => {
                 const flattenedMember = flattenObject(member);
                 const processedMember = Object.assign({ surveyId,
-                    surveyNumber, name: member.name, age: member.age, gender: member.gender, dob: member.dob, married: member.married, job: member.job }, flattenedMember);
+                    surveyNumber,
+                    houseNumber,
+                    houseName, name: member.name, age: member.age, gender: member.gender, dob: member.dob, married: member.married, job: member.job }, flattenedMember);
                 allMembersData.push(processedMember);
             });
         });
