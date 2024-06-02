@@ -16,7 +16,7 @@ exports.dbConnection = void 0;
 const mongoose_1 = __importDefault(require("mongoose"));
 const dbConnection = () => __awaiter(void 0, void 0, void 0, function* () {
     yield mongoose_1.default
-        .connect("mongodb://localhost:27017/phc")
+        .connect("mongodb+srv://nithindas1234:1234nith@cluster0.lvn9hia.mongodb.net/phcDb?retryWrites=true&w=majority")
         .then(() => {
         console.log("Connected to database");
     })
